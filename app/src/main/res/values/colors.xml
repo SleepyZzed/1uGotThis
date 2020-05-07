@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#434eb2</color>
+    <color name="colorPrimaryDark">#002682</color>
+    <color name="colorAccent">#ff5983</color>
+    <color name="colorLight">#787ae5</color>
+    <color name="colorRed">#FF0303</color>
+    <color name="colorGreen">#0CFF00</color>
+    <color name="form_light_color">#ccffffff</color>
+    <color name="form_med_color">#66ffffff</color>
+    <color name="darkblue">#213B8F</color>
+</resources>

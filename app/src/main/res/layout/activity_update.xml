@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Update"
+    android:background="@drawable/bgview">
+
+    <EditText
+        android:id="@+id/edit_text_title_update"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Title"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+
+       />
+
+    <EditText
+        android:id="@+id/edit_text_description_update"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Priority:"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColorHint="#ffffff"
+
+      />
+
+    <NumberPicker
+        android:id="@+id/number_picker_priority_update"
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:textColorHint="#ffffff"
+
+        />
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Save_update"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/btn"
+        android:textColor="#ffffff"
+        android:text="Update"
+
+        />
+    <Button
+        android:id="@+id/chooseimage1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/btn"
+        android:textColor="#ffffff"
+        android:text="Select Image"
+        android:layout_marginTop="20dp"
+
+        />
+    <ImageView
+        android:id="@+id/imageshow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
